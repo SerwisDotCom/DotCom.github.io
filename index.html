@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="pl">
-<head>
+<head class="noselect">
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-M11CCF2956"></script>
 	<script>
@@ -48,18 +48,17 @@
         fjs.parentNode.insertBefore(js, fjs);
       }(document, 'script', 'facebook-jssdk'));
     </script>
-	
-	<header>
+	<header class="tle noselect">
 			<p class="tyt"><img class="log" src="zdj/logov1.png">otCom</p>
 	</header>
 	<section class="serwis">
-		<p>
+		<p class="noselect">
 			<b class="tytul">Serwis komputerowy</b></br>
 			Zajmujemy się naprawą oraz serwisem laptopów i komputerów w konkurencyjnych cenach.
 			Przeprowadzamy przeglądy podzespołów i informujemy klientów o wykrytych uszkodzeniach i przybliżonej kwocie naprawy.
 		</p>
 	</section></br>
-	<section>
+	<section  class="noselect">
 		<p class="indie">Co oferujemy?</p>
 		<p>
 			Oferujemy naprawę oraz serwis laptopów i komputerów stacjonarnych w konkurencyjnych cenach.</br> 			Do naszych usług należą głównie:</br></br>
@@ -84,15 +83,39 @@
 			Wstępny kosztorys podajemy po poznaniu problemu i oczekiwań klienta.</br>
 		</p>
 	</section>
-	<footer>
-		<p class="indie">Kontakt:</p>
-		<p class="fb1">
-			Nr. tel: 515-747-424 lub 693-204-106</br>
+	<footer class="noselect">
+		<script>
+			function fun(x){
+				var kopiuj = document.getElementsByClassName("copy")[x];
+				var tekst = kopiuj.innerHTML;
+				navigator.clipboard.writeText(tekst);
+				document.getElementsByClassName("dymek")[x].style.opacity = "1";
+				setTimeout(function ()
+				{
+				document.getElementsByClassName("dymek")[x].style.opacity = "0";
+				},1000);
+			}
+		</script>
+
+		<p class="noselect indie">Kontakt:</p>
+		<p class="fb1">	
+			Nr. tel: 
+			<xd style = "position:relative">
+				<w class="copy" onclick="fun('0')">515 747 424</w>
+				<f class="dymek">Skopiowano</f>
+			</xd>
+			lub
+			<xd style = "position:relative">
+				<w class="copy" onclick="fun('1')">693 204 106</w>
+				<f class="dymek">Skopiowano</f>
+			</xd></br>
 			lub wiadomość na facebooku: 
 			<a href="https://www.facebook.com/Serwis-Komputerowy-DotCom-169487771857080" target="_blank"><i class="fab fa-facebook"></i></a>
 		</p>
-		
-		<p class="mail1">serwis.dotcom.pl@gmail.com <i class="fas fa-envelope"></i></p>
+		<xd style = "position:relative">
+			<w class="copy mail1" onclick="fun('2')">serwis.dotcom.pl@gmail.com</w><i class="fas fa-envelope"></i>
+			<f class="dymek" id="przesun">Skopiowano</f>
+		</xd>
 	</footer>
 </body>
 </html>
