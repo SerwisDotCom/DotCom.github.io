@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="pl">
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-M11CCF2956"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-M11CCF2956');
+	</script>
+	<meta name="google-site-verification" content="WylD9Cp2TAD1Oe4t7K75q5US2ZBeGQsdfnwXGNZkUvM" />
+	<link rel="stylesheet" href="css/css.css">
+	<link rel="stylesheet" href="facss/all.css">
+	<meta charset="utf-8">
+	<title>Serwis DotCom</title>
+	<link rel="shortcut icon" type="images/png" sizes="32x32" href="zdj/logo3.png">
+</head>
+<body>
+	<header>
+		
+		<p class="tyt">Serwis komputerowy</br><img class="log" src="zdj/logov1.png">otCom</p>
+	</header>
+	<section>
+		<p>
+			Zajmujemy się naprawą oraz serwisem laptopów i komputerów w konkurencyjnych cenach.
+			Przeprowadzamy przeglądy podzespołów i informujemy klientów o wykrytych uszkodzeniach i przybliżonej kwocie naprawy.
+		</p>
+	</section></br>
+	<section>
+		<p class="indie">Co oferujemy?</p>
+		<p>
+			Oferujemy naprawę oraz serwis laptopów i komputerów stacjonarnych w konkurencyjnych cenach.</br> 			Do naszych usług należą głównie:</br></br>
+
+			- Składanie nowego komputera z części dostarczonych przez klienta, lub na zamówienie.</br>
+			- Odzyskiwanie danych.</br>
+			- Czyszczenie i konserwacja układu chłodzenia:</br>
+			Jeżeli uważasz, że Twój komputer stacjonarny lub laptop szybko się nagrzewa to koniecznie powinieneś/aś skorzystać z tej usługi, żeby podnieść wydajność Twojego urządzenia i przedłużyć jego żywotność.
+			Do tego celu zostanie użyta najwyższej jakości pasta termoprzewodząca oraz bardzo dokładne czyszczenie całego układu chłodzenia.</br>
+			-Wymiana dysków SSD/HDD</br>
+			-Wymiana zasilaczy</br>
+			-Wymiana Kart Graficznych</br>
+			-Wymiana / dokładanie pamięci ram</br>
+			-Instalacje / reinstalację systemów operacyjnych np. Windows</br>
+			-Instalacja wszelakich programów</br>
+			-Instalacja wszelakich sterowników</br>
+			-Analiza i diagnostyka komputera</br>
+			-Konfiguracja programów, poczty e-mail Outlook Thunderbird</br>
+			- Optymalizacja pracy komputera</br>
+			- Konfiguracja przeglądarek internetowych, instalacja lub usuwanie wtyczek</br></br>
+			<b>Zajmujemy się również pisaniem prostych stron internetowych, wizytówkowych, landing page.</b></br></br>
+			Wstępny kosztorys podajemy po poznaniu problemu i oczekiwań klienta.</br>
+		</p>
+	</section>
+	<footer>
+		<p class="indie">Kontakt:</p>
+		<p class="fb1">
+			Nr. tel: 515-747-424 lub 693-204-106</br>
+			lub wiadomość na facebooku: 
+			<a href="https://www.facebook.com/Serwis-Komputerowy-DotCom-169487771857080" target="_blank"><i class="fab fa-facebook"></i></a>
+		</p>
+		
+		<p class="mail1">serwis.dotcom.pl@gmail.com <i class="fas fa-envelope"></i></p>
+	</footer>
+</body>
+</html>
