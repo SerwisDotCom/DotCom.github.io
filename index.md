@@ -19,11 +19,11 @@
 </head>
 <body>
 	<header>
-		
-		<p class="tyt">Serwis komputerowy</br><img class="log" src="zdj/logov1.png">otCom</p>
+			<p class="tyt"><img class="log" src="zdj/logov1.png">otCom</p>
 	</header>
-	<section>
+	<section class="serwis">
 		<p>
+			<b class="tytul">Serwis komputerowy</b></br>
 			Zajmujemy się naprawą oraz serwisem laptopów i komputerów w konkurencyjnych cenach.
 			Przeprowadzamy przeglądy podzespołów i informujemy klientów o wykrytych uszkodzeniach i przybliżonej kwocie naprawy.
 		</p>
