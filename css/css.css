@@ -13,13 +13,17 @@ html{
 	background-size: cover;
 	background-position: center;
 }
+.tle
+{
+	
+}
 header{
-	position: fixed;
-	top: 0;
+	margin: auto;
 	padding: 0px;
-	background-color: rgb(255, 255, 255);
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 10px;
 	text-align: center;
-	width: 100%;
+	width: 1000px;
 	margin-top: -9px;
 }
 section{
@@ -32,7 +36,7 @@ section{
 }
 .serwis
 {
-	margin-top: 80px;
+	margin-top: 20px;
 }
 footer{
 	margin-top: 25px;
@@ -50,6 +54,8 @@ a, a:hover, a:focus, a:active {
 .mail1{
 	margin: 0;
 	padding-bottom: 10px;
+	font-size: 21px;
+	font-family: 'Didact Gothic', sans-serif;
 }
 .fb1{
 	margin: 0;
@@ -77,3 +83,29 @@ p{
 	font-size: 21px;
 	font-family: 'Didact Gothic', sans-serif;
 }
+.copy
+{
+	cursor: pointer;
+}
+.dymek{
+	opacity: 0;
+	transition: opacity .5s ease-in-out;
+	position:absolute;
+	bottom:25px;
+	left:13px;
+	font-size: 15px;
+}
+#przesun
+{
+	bottom: 0px;
+	left:280px;
+}
+.noselect {
+	-webkit-touch-callout: none; /* iOS Safari */
+	  -webkit-user-select: none; /* Safari */
+	   -khtml-user-select: none; /* Konqueror HTML */
+		 -moz-user-select: none; /* Old versions of Firefox */
+		  -ms-user-select: none; /* Internet Explorer/Edge */
+			  user-select: none; /* Non-prefixed version, currently
+									supported by Chrome, Edge, Opera and Firefox */
+  }
