@@ -7,16 +7,20 @@
 }
 
 html{
-	background-image:url("../zdj/tlo.jpg");
+	background-image:url("../zdj/tlo4.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: center;
 }
 header{
-	margin: auto;
+	position: fixed;
+	top: 0;
+	padding: 0px;
+	background-color: rgb(255, 255, 255);
 	text-align: center;
-	width: 800px;
+	width: 100%;
+	margin-top: -9px;
 }
 section{
 	margin: auto;
@@ -25,6 +29,10 @@ section{
 	text-align: center;
 	width: 800px;
 	border-radius: 10px;
+}
+.serwis
+{
+	margin-top: 80px;
 }
 footer{
 	margin-top: 25px;
@@ -47,6 +55,10 @@ a, a:hover, a:focus, a:active {
 	margin: 0;
 	font-family: 'Didact Gothic', sans-serif;
 }
+.tytul
+{
+	font-size: 30px;
+}
 .tyt{
 	font-size: 30px;
 	font-weight: 700;
@@ -59,7 +71,6 @@ a, a:hover, a:focus, a:active {
 }
 .log{
 	width: 45px;
-	margin-top: 10px;
 	transform: translate(4px,8px);
 }
 p{
